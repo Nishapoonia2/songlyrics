@@ -1,0 +1,75 @@
+
+body{
+    border:5px  groove darkslategray;
+    border-radius: 25px;
+    padding: 0%;
+    margin:1%;
+    background:linear-gradient(to bottom right ,purple,orange ) ;      
+    background-repeat: no-repeat;
+}
+
+span> h1{
+    color: transparent;
+    -webkit-text-stroke: 1.5px black;
+    font-style: italic;
+    font-size:68px;
+    /* text-shadow: 4px 3px 6px rgb(209, 25, 25),4px 3px 6px rgb(211, 27, 58), 4px 3px 6px  rgb(30, 30, 210) ;
+    */
+} 
+
+header span:hover{
+   z-index: index 10;
+   /* background-color: transparent;
+    */
+    box-shadow: 5px 5px 8px black;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    text-shadow: 4px 4px 6px rgb(62, 52, 52);
+}
+/* .notes{
+    display: block; 
+    justify-content: center;
+    align-items: center;
+
+} */
+
+#lyrics{
+    text-align: center;
+    align-content: center;
+    display: block;
+}
+span{
+    text-align: center;
+}
+span>h1 {
+    text-align: center;
+}
+p.notes:hover{
+    z-index: 10px;
+    font-weight: 200;
+    text-decoration-line: underline;
+    font-size: larger;
+}
+
+#lyrical_notes1{
+ font-family: 'Permanent Marker', cursive;
+ font-weight: 100   ;
+}
+#lyrical_notes2{
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    
+}
+#lyrical_notes3{
+    font-family:  'Dancing Script', cursive;
+    font-weight: bold;
+}
+#lyrical_notes4{
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+    
+}
+#lyrical_notes5{
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+
+}
